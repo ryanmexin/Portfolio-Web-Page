@@ -1,0 +1,42 @@
+/* below is used to change the space between the content and the edges of the page*/
+*{
+  margin:5;
+}
+header{
+text-align: center;
+background-color: black;
+color: white;
+padding: 30px;
+opacity: 0.8;
+}
+ul,ol{
+  list-style-position: inside;
+}
+/*used to center and round my image*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+/* below is used to change the font and background color for the main, ul and ol html tags */
+main {
+background-color: gray;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+/*used to create the sam affect as the header*/
+}
+footer{
+text-align: center;
+color: white;
+background-color: black;
+padding:40px;
+opacity: 0.8;
+}
+
+/* below is used to change the color depending on what is going on with the link my pseudo-classes*/
+a:link    { color: blue;  }
+a:visited { color: orange;   }
+a:hover   { color: green; }
+a:active  { color:yellow;  }
