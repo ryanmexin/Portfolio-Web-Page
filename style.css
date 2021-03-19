@@ -3,7 +3,9 @@
   margin:5;
 }
 header{
+height: auto;
 text-align: center;
+font-size: 20px;
 background-color: black;
 color: white;
 padding: 30px;
@@ -28,6 +30,7 @@ text-align: center;
 /*used to create the sam affect as the header*/
 }
 footer{
+height: 100px;
 text-align: center;
 color: white;
 background-color: black;
